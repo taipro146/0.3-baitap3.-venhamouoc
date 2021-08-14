@@ -1,0 +1,41 @@
+# cuaso
+import turtle
+t = turtle.Pen()
+t.pencolor("white")
+t.goto(159,59)
+t.pencolor("red")
+for i in range(2):
+    t.left(90)
+    t.forward(66)
+    t.left(90)
+    t.forward(54)
+t.back(27)
+t.left(90)
+t.forward(66)
+t.pencolor("white")
+t.goto(-27,210)
+t.pencolor("black")
+t.right(90)
+for i in range(2):
+    t.left(90)
+    t.forward(66)
+    t.left(90)
+    t.forward(54)
+t.back(27)
+t.left(90)
+t.forward(66)
+a = turtle.Pen()
+#door
+a.pencolor("white")
+a.setpos(74,0)
+a.pencolor("yellow")
+for i in range(2):
+    a.left(90)
+    a.forward(96)
+    a.left(90)
+    a.forward(53)
+a.back(27)
+a.left(90)
+a.forward(96)
+t.hideturtle()
+
