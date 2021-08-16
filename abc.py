@@ -1,6 +1,3 @@
-# abc
-import turtle
-import window
 import house
+import window
 import roof
-turtle.done()
